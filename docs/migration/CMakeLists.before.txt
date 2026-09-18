@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.5)
+project(PQC)
+
+set(CMAKE_CXX_STANDARD 20)
+
+# ---- 查找 vcpkg 提供的 OpenSSL ----
+find_package(OpenSSL REQUIRED)
+
+# 收集 lib 里的所有源文件
+file(GLOB_RECURSE LIB_SOURCES "lib/*.cpp" "lib/*.cc")
+
+add_executable(PQC main.cpp ${LIB_SOURCES})
+
+# ---- 链接 OpenSSL ----
+target_link_libraries(PQC PRIVATE
+        OpenSSL::SSL
+        OpenSSL::Crypto
+)

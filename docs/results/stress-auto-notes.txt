@@ -1,0 +1,2 @@
+Deterministic TEST-ONLY entropy; one alternating fault per honest round.
+Zero observed failures do not establish an extremely small decryption-failure rate.

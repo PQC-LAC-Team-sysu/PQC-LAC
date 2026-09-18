@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CidrCTestProjectState">
+    <ctestState>
+      <lineNumber testId="path:CMakeLists.txt test:bch_tests" value="62" />
+      <lineNumber testId="path:CMakeLists.txt test:crypto_tests" value="62" />
+      <lineNumber testId="path:CMakeLists.txt test:kem_stress_smoke" value="58" />
+      <lineNumber testId="path:CMakeLists.txt test:kem_tests" value="62" />
+      <lineNumber testId="path:CMakeLists.txt test:kernel_tests" value="62" />
+      <lineNumber testId="path:CMakeLists.txt test:vector_tests" value="62" />
+    </ctestState>
+  </component>
+</project>

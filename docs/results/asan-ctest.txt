@@ -1,0 +1,18 @@
+Internal ctest changing into directory: /tmp/pqc-lac-asan-v1
+Test project /tmp/pqc-lac-asan-v1
+    Start 4: kem_tests
+    Start 6: vector_tests
+1/6 Test #6: vector_tests .....................   Passed    1.56 sec
+    Start 3: bch_tests
+2/6 Test #3: bch_tests ........................   Passed    0.84 sec
+    Start 5: kernel_tests
+3/6 Test #4: kem_tests ........................   Passed    2.45 sec
+    Start 2: crypto_tests
+4/6 Test #2: crypto_tests .....................   Passed    0.04 sec
+    Start 1: kem_stress_smoke
+5/6 Test #5: kernel_tests .....................   Passed    0.24 sec
+6/6 Test #1: kem_stress_smoke .................   Passed    0.37 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =   2.88 sec

@@ -1,0 +1,6 @@
+PQC-LAC-KEM-v1 / OpenSSL 3.6.4 25 Aug 2026
+Research implementation; see docs/KEM_DESIGN.md for compatibility and security scope.
+LAC_LIGHT [avx2] pk=544 sk=1056 ct=664 ss=16 bytes: round-trip OK
+LAC128 [avx2] pk=544 sk=1056 ct=704 ss=16 bytes: round-trip OK
+LAC192 [avx2] pk=1056 sk=2080 ct=1352 ss=32 bytes: round-trip OK
+LAC256 [avx2] pk=1056 sk=2080 ct=1448 ss=32 bytes: round-trip OK

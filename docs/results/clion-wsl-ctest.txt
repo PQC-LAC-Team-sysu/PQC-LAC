@@ -1,0 +1,18 @@
+Internal ctest changing into directory: /mnt/c/Users/22126/CLionProjects/PQC-LAC/cmake-build-debug-wsl
+Test project /mnt/c/Users/22126/CLionProjects/PQC-LAC/cmake-build-debug-wsl
+    Start 1: kem_stress_smoke
+    Start 2: crypto_tests
+    Start 3: bch_tests
+    Start 4: kem_tests
+1/6 Test #2: crypto_tests .....................   Passed    0.14 sec
+    Start 5: kernel_tests
+2/6 Test #1: kem_stress_smoke .................   Passed    0.37 sec
+    Start 6: vector_tests
+3/6 Test #5: kernel_tests .....................   Passed    0.23 sec
+4/6 Test #3: bch_tests ........................   Passed    0.53 sec
+5/6 Test #6: vector_tests .....................   Passed    0.52 sec
+6/6 Test #4: kem_tests ........................   Passed    0.89 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =   0.97 sec

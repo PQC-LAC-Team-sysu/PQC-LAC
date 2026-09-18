@@ -1,0 +1,29 @@
+-- Configuring done (0.1s)
+-- Generating done (0.6s)
+-- Build files have been written to: /mnt/c/Users/22126/CLionProjects/PQC-LAC/cmake-build-debug-wsl
+gmake[2]: Warning: File 'CMakeFiles/openssl_demo.dir/compiler_depend.make' has modification time 0.071 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[  8%] Built target openssl_demo
+[ 32%] Built target lac
+gmake[2]: Warning: File 'CMakeFiles/PQC.dir/compiler_depend.make' has modification time 0.015 s in the future
+gmake[2]: Warning: File 'CMakeFiles/kem_stress.dir/compiler_depend.make' has modification time 0.015 s in the future
+gmake[2]: Warning: File 'CMakeFiles/kem_bench.dir/compiler_depend.make' has modification time 0.013 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 40%] Built target PQC
+[ 56%] Built target kem_stress
+[ 56%] Built target kem_bench
+[ 68%] Built target crypto_tests
+gmake[2]: Warning: File 'CMakeFiles/kernel_tests.dir/compiler_depend.make' has modification time 0.016 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/bch_tests.dir/compiler_depend.make' has modification time 0.0072 s in the future
+gmake[2]: Warning: File 'CMakeFiles/kem_tests.dir/compiler_depend.make' has modification time 0.006 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 76%] Built target kernel_tests
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 84%] Built target bch_tests
+[ 92%] Built target kem_tests
+gmake[2]: Warning: File 'CMakeFiles/vector_tests.dir/compiler_depend.make' has modification time 0.0096 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target vector_tests
